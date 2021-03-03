@@ -23,7 +23,7 @@
 }
 
 .header__center>p{
-    margin: 10px;
+    margin: 5px;
     text-transform: uppercase;
 }
 
@@ -31,7 +31,7 @@
     display: flex;
     justify-content: flex-end;
     text-transform: uppercase;
-}
+} 
 
 .header__right>p{
     margin: 10px;
