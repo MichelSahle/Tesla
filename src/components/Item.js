@@ -17,10 +17,10 @@ function Item({title, desc, backgroundImg, leftBtnLink, leftBtnTxt, rightBtnTxt,
                 </div>
                 <div className="item__lowerThird">
                     <div className="item__buttons">
-                            <Button imp='primary' text={leftBtnLink} link={leftBtnLink}/>
+                            <Button imp='primary' text={leftBtnTxt} link={leftBtnLink} />
                           
                             {twoButtons && (
-                                <Button imp='secondary' text={rightBtnTxt} link={rightBtnTxt}/>
+                                <Button imp='secondary' text={rightBtnTxt} link={rightBtnLink} />
                             )}
                     </div>
                         {first && (

@@ -2,20 +2,21 @@ import './App.css';
 import Header from './components/Header';
 import Item from './components/Item';
 
-import Accessories from './assets/Desktop-Accessories.jpg';
-import ModelS from './assets/Desktop-ModelS.jpeg';
+
 import Model3 from './assets/Desktop-Model3.jpeg';
+import ModelS from './assets/Desktop-ModelS.jpeg';
 import ModelX from './assets/Desktop-ModelX.jpeg';
 import ModelY from './assets/Desktop-ModelY.jpeg';
+import Accessories from './assets/Desktop-Accessories.jpg';
 import SolarPanels from './assets/Desktop-SolarPanels.jpeg';
 import SolarRoof from './assets/Desktop-SolarRoof.jpeg';
-import Button from './components/Button';
+
 
 function App() {
   return (
     <div className="App">
     < Header />
-    <Button />
+
     <div className='app__itemsContainer'>
           <Item 
               title='Lowest Cost Panels in America'
@@ -23,7 +24,7 @@ function App() {
               descLink=''
               backgroundImg={SolarPanels}
               leftBtnTxt='ORDER NOW'
-              leftBtnTxt=''
+              leftBtnLink=''
               rightBtnTxt='LEARN MORE'
               rightBtnLink=''
               twoButtons='true'
@@ -35,7 +36,7 @@ function App() {
               descLink=''
               backgroundImg={ModelS}
               leftBtnTxt='CUSTOM ORDER'
-              leftBtnTxt=''
+              leftBtnLink=''
               rightBtnTxt='LEARN MORE'
               rightBtnLink=''
               twoButtons='true'
@@ -46,8 +47,8 @@ function App() {
               desc='Money-back guarantee'
               descLink=''
               backgroundImg={Model3}
-              leftBtnTxt='ORDER NOW'
-              leftBtnTxt=''
+              leftBtnTxt='CUSTOM ORDER'
+              leftBtnLink=''
               rightBtnTxt='LEARN MORE'
               rightBtnLink=''
               twoButtons='true'
@@ -59,7 +60,7 @@ function App() {
               descLink=''
               backgroundImg={ModelX}
               leftBtnTxt='CUSTOM ORDER'
-              leftBtnTxt=''
+              leftBtnLink=''
               rightBtnTxt='LEARN MORE'
               rightBtnLink=''
               twoButtons='true'
@@ -71,7 +72,7 @@ function App() {
               descLink=''
               backgroundImg={ModelY}
               leftBtnTxt='CUSTOM ORDER'
-              leftBtnTxt=''
+              leftBtnLink=''
               rightBtnTxt='LEARN MORE'
               rightBtnLink=''
               twoButtons='true'
@@ -83,7 +84,7 @@ function App() {
               descLink=''
               backgroundImg={SolarRoof}
               leftBtnTxt='ORDER NOW'
-              leftBtnTxt=''
+              leftBtnLink=''
               rightBtnTxt='LEARN MORE'
               rightBtnLink=''
               twoButtons='true'
@@ -95,7 +96,7 @@ function App() {
               descLink=''
               backgroundImg={Accessories}
               leftBtnTxt='SHOP NOW'
-              leftBtnTxt=''
+              leftBtnLink=''
               rightBtnTxt='LEARN MORE'
               rightBtnLink=''
               twoButtons='true'

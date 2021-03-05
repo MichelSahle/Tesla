@@ -31,8 +31,10 @@
     display: flex;
     justify-content: flex-end;
     text-transform: uppercase;
+     align-items: center;
 } 
 
 .header__right>p{
     margin: 10px;
+    
 }
